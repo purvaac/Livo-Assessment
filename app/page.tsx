@@ -321,6 +321,12 @@ export default function Home() {
           </p>
         </div>
       )}
+      <footer style={{ marginTop: 60, padding: "20px 0", borderTop: "1px solid #2a2d36", textAlign: "center", fontSize: 13, color: "#8a8d99" }}>
+        Created by{" "}
+        <a href="https://www.linkedin.com/in/purva-chopdekar-631905308" target="_blank" rel="noopener noreferrer" style={{ color: "#5b6cff", textDecoration: "none" }}>
+          Purva Chopdekar
+        </a>
+      </footer>
     </main>
   );
 }
